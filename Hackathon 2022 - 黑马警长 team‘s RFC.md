@@ -7,8 +7,13 @@
 
 项目进展:
 
-- 完成初步的原型图
-- 完成初步网络层reader writer原型后端代码
+|  时间   | 里程碑  | 状态  |
+|  ----  | ----  | ----  |
+| 2022-10-03  | 完成初步的原型图  | 完成 |
+| 2022-10-09  | 完成网络层reader writer原型后端代码 | 进行中 |
+| 2022-10-13  | 完成前端初步代码 | 进行中 |
+
+
 
 
 # 项目介绍
@@ -43,9 +48,11 @@
 据协议头里面的数据长度来决定接受多少数据。
 
 ## UI 原型图
-![列表页](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/1.png)
-![创建业务](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/2.png)
-![查看进度](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/3.png)
+地址: https://modao.cc/app/fceadfdc1e4e9495953029ea33fbffcde99b4937 #elastic paas平台-分享  密码: fajo6i
+
+![列表页](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/1.jpg)
+![创建业务](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/2.jpg)
+![查看进度](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/3.jpg)
 
 
 ## 设计文档讲解视频（可选）
