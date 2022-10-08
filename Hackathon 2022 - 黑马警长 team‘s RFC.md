@@ -16,10 +16,11 @@
 
 # 背景&动机
 
-Dumpling: 用于将Mysql或者TiDB数据全量导出SQL 或 CSV 格式。参考: https://docs.pingcap.com/zh/tidb/dev/dumpling-overview
-Lightning: 用于从静态文件导入 TB 级数据到 TiDB 集群的工具。参考:
-https://docs.pingcap.com/zh/tidb/dev/tidb-lightning-overview
+- Dumpling: 用于将Mysql或者TiDB数据全量导出SQL 或 CSV 格式。参考: https://docs.pingcap.com/zh/tidb/dev/dumpling-overview
+- Lightning: 用于从静态文件导入 TB 级数据到 TiDB 集群的工具。参考: https://docs.pingcap.com/zh/tidb/dev/tidb-lightning-overview
+
 用户完成一次全量导入,需要两次操作1）从源集群导出文件，2）导入目标集群，本文将针对此场景进行问题分析与优化。
+
 ## 问题分析
 针对上述场景有两个问题，一个是效率问题，一个空间放大问题。
 ### 效率问题
@@ -33,15 +34,15 @@ https://docs.pingcap.com/zh/tidb/dev/tidb-lightning-overview
 
 
 # 项目设计
-## 表级别任务搬运
+## 表级别任务搬运功能
 任务数据拆分，需要支持表级别的拆分，如10张表，一张表一个长连接，每个长连接中会完成一张表的数据搬运。表级别的搬运，支持支持行长拆分，默认按千行搬运。
 
 
-## 读写格式设计
+## 搬运数据读写格式功能
 半包/粘包问题
 据协议头里面的数据长度来决定接受多少数据。
 
-## 原型图
+## UI 原型图
 
 https://modao.cc/app/fceadfdc1e4e9495953029ea33fbffcde99b4937 #elastic paas平台-分享  密码: fajo6i
 
