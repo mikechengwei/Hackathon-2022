@@ -47,11 +47,11 @@
 
 
 # 项目设计
-##后端设计
+## 后端设计
 ### 后端原型
 基本架构简图:
-![基本架构简图](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/4.jpg)
-![UML简图](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/5.jpg)
+![基本架构简图](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/4.png)
+![UML简图](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/5.png)
 
 通过CS模式将lightning与dumpling/oracle dump 集成一体化，完成自动化数据搬运任务。
 ### 表级别任务搬运功能
