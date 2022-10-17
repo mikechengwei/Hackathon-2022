@@ -64,10 +64,10 @@
 
 ## UI 原型图
 ![列表页](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/1.jpg)
-![创建业务](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/2.jpg)
+![创建业务](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/2.png)
 ![查看进度](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/3.jpg)
 
 ## API文档
-
-
+已完成，参考文档目录中apidoc/apidoc/index.html
+![api文档](https://github.com/mikechengwei/Hackathon-2022/blob/main/images/6.png)
 ## 设计文档讲解视频（可选）
