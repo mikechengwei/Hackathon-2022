@@ -6,6 +6,10 @@
   - 队员：蔡阳洲 15910816082
   - 队员: 金文涛 1807043179
 
+项目地址: 
+后端: https://github.com/mikechengwei/Hack-2022
+前端: git@github.com:cyzlucky/tidb-2022-hackathon-web.git
+
 
 项目进展:
 

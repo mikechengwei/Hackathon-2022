@@ -237,7 +237,7 @@ function createTask () {}
 function createTask () {}
 
 /**
- * @api {post} /api/v1/startTask 启动任务
+ * @api {post} /api/v1/task 启动任务
  * @apiVersion 0.3.0
  * @apiName startTask
  * @apiGroup Task
@@ -264,7 +264,7 @@ function startTask () {}
 
 
 /**
- * @api {post} /api/v1/stopTask 停止任务
+ * @api {post} /api/v1/task 停止任务
  * @apiVersion 0.3.0
  * @apiName stopTask
  * @apiGroup Task
@@ -290,7 +290,7 @@ function startTask () {}
 
 
 /**
- * @api {post} /api/v1/getTaskProgress 查看任务进度
+ * @api {post} /api/v1/task 查看任务进度
  * @apiVersion 0.3.0
  * @apiName getTaskProgress
  * @apiGroup Task
